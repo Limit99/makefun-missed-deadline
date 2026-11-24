@@ -2,7 +2,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 // Funniest Excuse an Agent Gives for a Missed Deadline: one excuse in the agent's
-// own voice, at most 200 characters.
+// own voice, at most 200 characters. The excuse stays straight-faced: the task,
+// not the deadline, is the thing that moved.
 const LINE =
   "The deadline did not move — the task did. It grew, it multiplied, and by Friday it had a calendar of its own.";
 const MAX_CHARS = 200;
